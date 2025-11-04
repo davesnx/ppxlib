@@ -1,4 +1,5 @@
 module Longident = struct
+  include Longident_504
   type t = Longident_504.t =
     | Lident of string
     | Ldot of t Location.loc * string Location.loc
